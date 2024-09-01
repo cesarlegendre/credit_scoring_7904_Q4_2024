@@ -10,8 +10,6 @@ Welcome to the official repository for the **Credit Scoring Prediction** course 
 - [📚 Course Structure](#-course-structure)
 - [📂 Directory Structure](#-directory-structure)
 - [🚀 Getting Started](#-getting-started)
-  - [✅ Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#-installation)
 - [💻 Usage](#-usage)
 - [📝 License](#-license)
 - [📬 Contact](#-contact)
