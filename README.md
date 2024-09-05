@@ -101,6 +101,7 @@ Creating a virtual environment helps to manage dependencies specific to this pro
 ```bash
 pip install -r requirements.txt
 ```
+** Note **: Most of the requirements are already install in collabs, the notebooks are self-contained in terms of libraries otherwise the libraries are installed at run time. 
 ## 💻 Usage
 Once the setup is complete, you can start using the course materials:
 
