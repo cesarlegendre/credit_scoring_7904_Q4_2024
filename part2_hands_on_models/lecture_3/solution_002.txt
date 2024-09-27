@@ -1,0 +1,37 @@
+# solution 1
+df['Good_Credit'] = df['Credit Score'].apply(lambda x: 1 if x == 'High' else 0)
+
+# solution 2
+df['Marital_Status_Married'] = df['Marital Status'].map({'Single': 0, 'Married': 1
+
+# solution 3
+df['Home_Ownership_Owned'] = df['Home Ownership'].map({'Rented': 0, 'Owned': 1})
+
+# solution 4
+df.isnull().sum()
+
+# solution 5 
+df.describe()
+
+# solution 6
+sns.histplot(df['Income'], bins=20, kde=True)
+
+# solution 7
+sns.histplot(df['Number of Children'], bins=4, kde=False)
+
+# solution 8
+sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
+
+# solution 9
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42, stratify=y)
+
+
+# solution 10
+param_grid_lr = {
+    'C': [0.01, 0.1, 1, 5, 7],
+    'solver': ['liblinear']
+}
+
+# solution 11
+best_lr = grid_search_lr.best_estimator_
+y_pred_lr = best_lr.predict(X_test)
