@@ -5,7 +5,7 @@ Welcome to the official repository for the **Credit Scoring Prediction** course 
 [![Notion](https://img.shields.io/badge/Notion-8A2BE2)](https://www.notion.so/Credit-Scoring-7964-Q4-2024-68d08e091f894c46a97f5bc45f1fe9c8)
 [![GDrive](https://img.shields.io/badge/GDrive-90EE90)](https://drive.google.com/drive/folders/1-YlsDyZDklCWCcTvyMIB8bJS5KreEhd5?usp=drive_link)
 
-## 📑 Table of Contents
+## 📑 Table of Contents 
 
 - [📚 Course Structure](#-course-structure)
 - [📂 Directory Structure](#-directory-structure)
